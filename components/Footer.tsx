@@ -21,11 +21,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4" aria-label="VIRNISHA OVERSEAS — Home">
               <div className="w-10 h-10 rounded-lg bg-white/10 border border-gold/30 flex items-center justify-center">
-                <svg viewBox="0 0 40 40" fill="none" className="w-8 h-8" aria-hidden="true">
-                  <circle cx="20" cy="20" r="18" stroke="#C8960C" strokeWidth="1.5" fill="none" />
-                  <path d="M10 12l10 16 10-16" stroke="#C8960C" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M14 12h12" stroke="white" strokeWidth="2" strokeLinecap="round" />
-                </svg>
+                <img src="/logo.png" />
               </div>
               <div className="leading-tight">
                 <span className="block font-bold text-white text-base">VIRNISHA</span>
